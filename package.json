@@ -1,0 +1,26 @@
+{
+  "name": "com.tryll.client",
+  "version": "0.10.0",
+  "displayName": "Tryll Client",
+  "description": "TCP/FlatBuffers client for the Tryll on-device SLM inference server. Full protocol parity with tryll-client (C++) and the Unreal plugin: session configuration, workflow graph-driven agent lifecycle, streaming text, model management, and RAG storage.",
+  "unity": "6000.3",
+  "type": "library",
+  "category": "Networking",
+  "keywords": [
+    "tryll",
+    "ai",
+    "llm",
+    "inference",
+    "npc"
+  ],
+  "author": {
+    "name": "Tryll"
+  },
+  "dependencies": {
+    "com.unity.modules.audio": "1.0.0"
+  },
+  "license": "See LICENSE.md file",
+  "documentationUrl": "https://docs.tryllengine.com/v0.10/",
+  "changelogUrl": "https://docs.tryllengine.com/v0.10/release-notes/index.html",
+  "licensesUrl": "https://docs.tryllengine.com/v0.10/reference/legal/licence.html"
+}

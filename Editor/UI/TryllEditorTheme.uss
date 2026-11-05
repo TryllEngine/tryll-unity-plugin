@@ -1,0 +1,51 @@
+/* Host-linked Tryll editor surfaces. Names must match Unity's built-in
+ * USS variables (underscores in input_field / object_field). Invalid
+ * var() names on the window root drop the editor theme and BaseFields
+ * fall back to white runtime inputs. Semantic RGB stays in C#. */
+
+.tryll-host-root {
+    --tryll-bg: var(--unity-colors-window-background);
+    --tryll-panel: var(--unity-colors-default-background);
+    --tryll-panel2: var(--unity-colors-toolbar-background);
+    --tryll-line: var(--unity-colors-default-border);
+    --tryll-line2: var(--unity-colors-window-border);
+    --tryll-txt: var(--unity-colors-default-text);
+    --tryll-dim: var(--unity-colors-label-text);
+    --tryll-input: var(--unity-colors-input_field-background);
+}
+
+.tryll-host-bg {
+    background-color: var(--unity-colors-window-background);
+}
+
+.tryll-host-panel {
+    background-color: var(--unity-colors-default-background);
+}
+
+.tryll-host-text {
+    color: var(--unity-colors-default-text);
+}
+
+.tryll-host-dim {
+    color: var(--unity-colors-label-text);
+}
+
+.tryll-host-line {
+    border-color: var(--unity-colors-default-border);
+}
+
+.tryll-host-input {
+    background-color: var(--unity-colors-input_field-background);
+}
+
+/* Text / object inputs only. Toggle and Foldout also use
+ * .unity-base-field__input for their full-width hit area; painting that
+ * produces a grey strip after the checkbox and on foldout headers. */
+.tryll-host-root .unity-base-text-field__input {
+    background-color: var(--unity-colors-input_field-background);
+}
+
+.tryll-host-root .unity-object-field__input,
+.tryll-host-root .unity-object-field__object {
+    background-color: var(--unity-colors-object_field-background);
+}

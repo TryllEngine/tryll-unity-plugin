@@ -1,0 +1,24 @@
+{
+    "name": "Tryll.Client",
+    "rootNamespace": "Tryll.Client",
+    "references": [
+        "Tryll.MackySoft.SRE",
+        "Unity.Localization",
+        "Unity.ResourceManager"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.localization",
+            "expression": "1.0.0",
+            "define": "TRYLL_HAS_UNITY_LOCALIZATION"
+        }
+    ],
+    "noEngineReferences": false
+}

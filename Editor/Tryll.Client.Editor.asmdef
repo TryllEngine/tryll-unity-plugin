@@ -1,0 +1,26 @@
+{
+    "name": "Tryll.Client.Editor",
+    "rootNamespace": "Tryll.Client.Editor",
+    "references": [
+        "Tryll.Client",
+        "Tryll.MackySoft.SRE",
+        "Tryll.MackySoft.SRE.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.localization",
+            "expression": "1.0.0",
+            "define": "TRYLL_HAS_UNITY_LOCALIZATION"
+        }
+    ],
+    "noEngineReferences": false
+}

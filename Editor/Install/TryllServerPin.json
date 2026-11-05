@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "version": "0.10.0",
+  "protocol_version": 29,
+  "base_url": "https://github.com/TryllEngine/tryll-unity-plugin/releases/download/v0.10.0/",
+  "channel": "public",
+  "variants": [
+    {
+      "name": "lite",
+      "file": "tryll-server-0.10.0-win64-lite.zip",
+      "size": 29177401,
+      "sha256": "3a95e213dd1d32359af40636f083b5f431ae6659a207487def231be22f85255c"
+    },
+    {
+      "name": "full",
+      "file": "tryll-server-0.10.0-win64-full.zip",
+      "size": 847983233,
+      "sha256": "fbf828fc499d208ccc306d6688969ab741504c293539cd684f337bac176474d6"
+    }
+  ]
+}
