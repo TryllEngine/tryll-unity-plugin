@@ -25,6 +25,6 @@ namespace Tryll.Client
     public static class TryllVersion
     {
         /// <summary>Package version, e.g. <c>"0.5.0"</c>. Stamped at release time.</summary>
-        public const string Version = "0.10.0";
+        public const string Version = "0.10.1";
     }
 }

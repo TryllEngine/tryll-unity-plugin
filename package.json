@@ -1,6 +1,6 @@
 {
   "name": "com.tryll.client",
-  "version": "0.10.0",
+  "version": "0.10.1",
   "displayName": "Tryll Client",
   "description": "TCP/FlatBuffers client for the Tryll on-device SLM inference server. Full protocol parity with tryll-client (C++) and the Unreal plugin: session configuration, workflow graph-driven agent lifecycle, streaming text, model management, and RAG storage.",
   "unity": "6000.3",

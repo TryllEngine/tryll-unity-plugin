@@ -2,7 +2,7 @@
 
 Tryll runs language, speech-to-text and text-to-speech models on the player's own machine, and
 connects them to your game through workflow-driven agents. This repository is the Unity package
-`com.tryll.client` 0.10.0.
+`com.tryll.client` 0.10.1.
 
 - **Unity:** 6000.3 or newer
 - **Platform:** Windows x64 (the Tryll server is Windows-only today)
@@ -16,7 +16,7 @@ connects them to your game through workflow-driven agents. This repository is th
 4. Paste this URL and click **Install**:
 
    ```
-   https://github.com/TryllEngine/tryll-unity-plugin.git#v0.10.0
+   https://github.com/TryllEngine/tryll-unity-plugin.git#v0.10.1
    ```
 
 5. The **Welcome to Tryll** window opens. Accept the licence and click **Download server**. The
@@ -29,7 +29,7 @@ and use **Install from zip…** in the same window.
 
 ## Update
 
-Change the version at the end of the URL, for example `#v0.10.0` to the newer tag:
+Change the version at the end of the URL, for example `#v0.10.1` to the newer tag:
 **Window > Package Manager > + > Install package from git URL…** with the new URL, or edit
 `Packages/manifest.json`. The Welcome window then downloads the matching server.
 

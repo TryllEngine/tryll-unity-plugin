@@ -1,6 +1,6 @@
 # Tryll Engine (Unity) — context for AI coding agents
 
-**Tryll plugin version:** 0.10.0
+**Tryll plugin version:** 0.10.1
 
 You are looking at the Tryll Unity package. This file is a **map, not a manual** — it gives
 you the mental model and the gotchas, then points at the full docs. Fetch a linked page
